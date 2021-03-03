@@ -214,41 +214,54 @@ button:hover{
     border-top: 1px solid grey;
     margin: auto;
 }
-
-.footer .container{
-    max-width: 800px;
-    width: 100%;
-    height: 200px;
+.footer .container {
+    width: 900px;
+}
+.block-foot{
     display: flex;
-    margin: auto;
+    margin-top: 130px;
+    margin-bottom: 100px;
 }
 
-
-
-.footer  ul {
+.block-foot div{
+    margin: auto;
     display: flex;
+}
+
+.fut1 h1 {
+    display: inline;
+    text-align: center;
+    margin: 0;
+    margin-top: -30px;
+    margin-right: -140px;
+}
+
+.fut1 li{
     list-style: none;
-    margin-left: -15px;
-    margin-right: -15px;
-    margin: auto;
-    align-items: center;
-    
 }
 
-.footer li {
+.icon{
+    max-width: 700px;
+    margin: auto;
+}
+.icon .container{
+    width: 700px;
+    margin: auto;
+}
+
+ .icon-icon{
+    display: flex;
+    margin-left: 240px;
+}
+
+.icon-icon ul{
+    display: flex;
+    margin: auto;
+    margin-left: -15px;
+    padding-right: -15px;
+    list-style: none;
+}
+.icon-icon li{
     padding-left: 15px;
     padding-right: 15px;
 }
-
-.footer .container >div {
-    display: flex;
-    margin: auto;
-    margin-top: 140px;
-}
-
-.foot-text{
-    margin: auto;
-    text-align: center;
-    margin-left: 45px;
-}
-
