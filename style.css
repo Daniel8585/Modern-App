@@ -246,7 +246,7 @@ button:hover{
 }
 .icon .container{
     width: 700px;
-    margin: auto;
+    margin-left: -70px;
 }
 
  .icon-icon{
@@ -257,7 +257,7 @@ button:hover{
 .icon-icon ul{
     display: flex;
     margin: auto;
-    margin-left: -15px;
+    margin-left: -0px;
     padding-right: -15px;
     list-style: none;
 }
