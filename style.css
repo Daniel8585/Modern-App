@@ -102,7 +102,7 @@
   }
   
   .dropdown-content a:hover {
-    columns: #fff;
+    columns: rgb(130, 130, 130);
     opacity: 1;
     text-decoration: none;
   }
@@ -110,6 +110,7 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  
  
 /* bloc*/
 
@@ -154,6 +155,10 @@
     text-align: center;
 }
 
+.srevice-page img{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
 .srevice-page .text{
     margin: auto;
 }
@@ -178,7 +183,7 @@ button {
     color: rgb(181, 181, 181);
     letter-spacing: .5px;
     text-transform: uppercase;
-    font-size: 8px;
+    font-size: 10px;
 }
 
 
@@ -197,11 +202,27 @@ button:hover{
     margin-top: 110px;
 
 }
-.Costumers h1 {
+.Costumers h1  {
+    color: rgb(27, 27, 27);
+    opacity: .6;
     text-align: center;
     margin-top: 100px;
     margin-bottom: 170px;
     text-decoration: underline;
+    font-size: 45px;
+}
+.Costumers h3{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 170px;
+    text-decoration: none;
+    font-size: 45px;
+    
+}
+
+.Costumers a{
+   text-decoration: none;
+   color: rgb(181, 181, 181) 
 }
 
 .leb{
@@ -215,9 +236,9 @@ button:hover{
 .profile>div{
     width: 300px;
     margin: auto;
+    border-radius: 3px;
     text-align: center;
-    border-style: ridge;
-    border-radius: 8px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
 }
 .prf{
@@ -229,7 +250,7 @@ button:hover{
 
 .img-photo{
     max-width: 300px;
-    border-radius: 8px;
+    border-radius: 3px;
 }
 
 .btn-prf{
@@ -247,6 +268,7 @@ button:hover{
 .btn{
     width: 350px;
     height: 55px;
+    background-color: #004838;
 }
 
 /* footer */
@@ -270,7 +292,7 @@ button:hover{
     display: flex;
 }
 
-.fut1 h1 {
+.fut1 h2 {
     display: inline;
     text-align: center;
     margin: 0;
