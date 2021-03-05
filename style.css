@@ -1,8 +1,11 @@
 
+body{
+    max-width: 1280px;
+    margin: auto;
+}
 
 .container{
-    max-width: 1280px;
-    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -10,52 +13,74 @@
 /*Navbar*/
 
 .navbar{
+    
     display: flex;
     align-items: center; 
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     top: 0;
     width: 100%;
     height: 110px;
-    z-index: 2;
 }
 
-.navbar > .container {
+.navbar .container-nav {
+    max-width: 1280px;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
+
+.navbar .container-nav > div{
+    margin: auto;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
 .navbar-brand img{
     max-width: 160px;
 }
 
- .navbar-nav{
-    margin-left: auto;
-}
-
-.navbar-nav  ul {
+.container-nav ul {
     display: flex;
     list-style: none;
     margin-left: -15px;
     margin-right: -15px;
-    
 }
 
-.navbar-nav li {
+.container-nav li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.slak{
+      margin-left: 3px;
+      position: absolute;
+      margin-top: 10px;
+}
+
+.navbar  ul {
+    display: flex;
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: auto;
+}
+.menu-icon > img{
+   
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+
+.menu li {
     padding-left: 15px;
     padding-right: 15px;
     text-decoration: none;
 }
 
-.navbar-nav{
-    display: flex;
-}
-
-.navbar-nav .menu{
-   margin-right: 300px;
-}
-
-.navbar-nav li a{
+.menu li a{
     color: rgb(27, 27, 27);
     text-transform: uppercase;
     font-size: 12px;
@@ -63,12 +88,18 @@
     letter-spacing: .5px;
     transition: opacity .3 ease;
     text-decoration: none;
+    
 }
 
-.navbar-nav li a:hover{
+.menu li a:hover{
     columns: #fff;
     opacity: 1;
     text-decoration: none;
+}
+
+.menu-icon .li{
+    padding-left: -15px;
+    padding-right: -15px;
 }
 
 /*hover menu*/
@@ -116,6 +147,7 @@
 
 
     .block {
+        width: 1280px;
         position: static;
         display: flex;
         align-items: center;
@@ -125,7 +157,7 @@
         text-align: center;
         background-size: cover;
         background-position: center;
-        margin-top: 110px;
+        margin-top: 60px;
     
 }
 
@@ -136,6 +168,7 @@
     font-size: 95px;
     font-weight: 700;
     font-family: 'Dancing Script', cursive;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 /* service*/
@@ -197,7 +230,7 @@ button:hover{
 
 .Costumers{
     max-width: 1280px;
-    width: 100%;
+    width:fit-content;
     margin: 0 auto;
     margin-top: 110px;
 
@@ -214,6 +247,7 @@ button:hover{
 .Costumers h3{
     text-align: center;
     margin-top: 100px;
+    margin-left: 45px;
     margin-bottom: 170px;
     text-decoration: none;
     font-size: 45px;
@@ -235,7 +269,8 @@ button:hover{
 
 .profile>div{
     width: 300px;
-    margin: auto;
+    padding: 15px;
+    margin: 50px;
     border-radius: 3px;
     text-align: center;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -332,7 +367,10 @@ button:hover{
 
 
 
-
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { /* STYLES GO HERE */}
 
 
 @media only screen 
